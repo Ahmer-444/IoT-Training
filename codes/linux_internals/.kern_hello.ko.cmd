@@ -1,0 +1,1 @@
+cmd_/home/ahmer/python_bindings/linux_internals/kern_hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/ahmer/python_bindings/linux_internals/kern_hello.ko /home/ahmer/python_bindings/linux_internals/kern_hello.o /home/ahmer/python_bindings/linux_internals/kern_hello.mod.o

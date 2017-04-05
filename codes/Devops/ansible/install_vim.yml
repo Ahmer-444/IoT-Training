@@ -1,0 +1,6 @@
+---
+- hosts: computer_vision
+  tasks:
+   - name: Install Vim
+     apt: pkg=vim state=installed update_cache=true
+
